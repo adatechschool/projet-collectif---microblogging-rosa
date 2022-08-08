@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,5 +30,7 @@ Route::get('hello-world', function () {
 Route::get('profile-page', function () {
     return view('profile-page');
 });
+
+Route::resource('posts', PostController::class);
 
 require __DIR__ . '/auth.php';
