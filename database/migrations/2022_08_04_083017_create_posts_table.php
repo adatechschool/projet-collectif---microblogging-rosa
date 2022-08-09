@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('img_url');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
+            $table->text('biography');
         });
 
         Schema::table('users', function(Blueprint $table){
