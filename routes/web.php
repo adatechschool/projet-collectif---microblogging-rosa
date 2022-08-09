@@ -32,6 +32,10 @@ Route::get('profile-page', function () {
     return view('profile-page');
 });
 
+Route::get('index', function () {
+    return view('index');
+});
+
 Route::resource('posts', PostController::class);
 
 Route::resource('users', UserController::class);

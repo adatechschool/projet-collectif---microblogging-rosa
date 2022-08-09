@@ -26,4 +26,9 @@ class UserController extends Controller
             ['user'=>User::findOrFail($id)
         ]);
     } 
+
+    public function index(){
+        $users = User::latest()->get();
+        return view('users.index', ['users' => $users]);
+   }
 }

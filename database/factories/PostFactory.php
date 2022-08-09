@@ -17,9 +17,9 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            'description' => "Chatoune",
+            'description' => $this->faker->text(50),
             'img_url' => $this->faker->imageUrl(640, 480, 'Chat'),
-            'user_id' => 1
+            'user_id' => $this->faker->randomElement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
         ];
     }
 }
