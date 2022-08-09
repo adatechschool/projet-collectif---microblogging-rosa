@@ -388,3 +388,26 @@ video {
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+.usercard {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  display: inline !important;
+}

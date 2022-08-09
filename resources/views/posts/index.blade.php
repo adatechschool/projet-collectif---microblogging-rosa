@@ -1,6 +1,6 @@
 <x-guest-layout>
     @foreach ($posts as $post)
-  {{$post->user->name}}:
+  {{$post->user->name}}
   {{$post->description}}
   {{$post->email}}
  
