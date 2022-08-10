@@ -29,7 +29,7 @@
      </div>
 
      <div class="w-full p-8 mx-2 flex justify-center">
-       <img id="showImage" class="max-w-xs w-32 items-center border" src="https://e7.pngegg.com/pngimages/727/249/png-clipart-pigeon-pigeon.png" alt="">                          
+       <!--<img id="showImage" class="max-w-xs w-32 items-center border" src="https://e7.pngegg.com/pngimages/727/249/png-clipart-pigeon-pigeon.png" alt=""> -->                         
        </div>
    </div>
    

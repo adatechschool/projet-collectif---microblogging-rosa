@@ -411,3 +411,7 @@ ul {
 .navigation {
   display: inline !important;
 }
+
+.font-semibold text-xl tracking-tight {
+  font-size: larger;
+}

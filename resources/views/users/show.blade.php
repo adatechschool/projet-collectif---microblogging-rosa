@@ -1,7 +1,7 @@
 <x-guest-layout>
   Hi {{$user->name}}, please submit your biography below:
 
-<form method="post" action="">
+<form method="put">
 
 <?php $bio ="" ?>
 
@@ -12,6 +12,7 @@
 <button class="btn btn-blue" type="submit">
   Submit
 </button>
+
 
 
 </form>
