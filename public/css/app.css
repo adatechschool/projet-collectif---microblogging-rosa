@@ -398,8 +398,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -414,4 +414,13 @@ ul {
 
 .font-semibold text-xl tracking-tight {
   font-size: larger;
+}
+
+.img_url {
+  width : 50%;
+  height: 50%;
+}
+
+.pigeons-containers {
+  display : inline !important;
 }
